@@ -1,0 +1,1 @@
+In order to run application correctly, all .ui files and .exe file have to be in the same directory. Otherwise, app would not run properly.
