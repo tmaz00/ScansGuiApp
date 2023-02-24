@@ -92,7 +92,7 @@ class FileUI(QMainWindow):
     def __init__(self):
         super(FileUI, self).__init__()
 
-        uic.loadUi("dist/fileDialog.ui", self)
+        uic.loadUi("uis/fileDialog.ui", self)
         self.setWindowTitle("Load data")
 
         self.label1 = self.findChild(QLabel, "label_1")

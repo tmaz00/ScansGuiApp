@@ -12,7 +12,7 @@ class ScansGUI(QMainWindow):
     def __init__(self, data, sampling_step):
         super().__init__()
 
-        uic.loadUi("dist/mainWindow.ui", self)
+        uic.loadUi("uis/mainWindow.ui", self)
         pg.setConfigOption('imageAxisOrder', 'col-major')
         self.setWindowTitle('Graphical User Interface')
 
@@ -478,7 +478,7 @@ class LoadingWindow(QWidget):
     def __init__(self):
         super().__init__()
 
-        uic.loadUi("dist/loading_window.ui", self)
+        uic.loadUi("uis/loading_window.ui", self)
         self.progress_bar = self.findChild(QProgressBar)
 
         

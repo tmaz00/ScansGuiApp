@@ -14,7 +14,7 @@ class FilterDialog(QDialog):
     def __init__(self, data, parent=None):
         super().__init__(parent=parent)
 
-        uic.loadUi("dist/filter_dialog.ui", self)
+        uic.loadUi("uis/filter_dialog.ui", self)
 
         self.data = data
 
