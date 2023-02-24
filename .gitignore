@@ -1,10 +1,8 @@
 /venv
 /data
-/bin
+/temp
 /.vscode
 /__pycache__
-/sample_data
-/matlab_temp
 test.py
 filter_testprogram.py
 pg_examples.py
