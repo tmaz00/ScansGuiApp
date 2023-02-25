@@ -17,3 +17,19 @@ To run and test the program on your computer:
 <li> You can try different options like setting color ranges, animation etc.
 
 Note: In order to run application correctly, all files inside /src directory shouldn't be moved from their places after download. Otherwise, app would not run properly.
+
+<h2>Some screenshots of application</h2>
+<p><i>Loading window</i></p>
+<img
+  src="/img/loading-window.png"
+  alt="Failed load the image">
+  
+<p><i>Main window</i></p>
+<img
+  src="/img/main-window.png"
+  alt="Failed load the image">
+  
+<p><i>Filtering window</i></p>
+<img
+  src="/img/filtering-window.png"
+  alt="Failed load the image">
