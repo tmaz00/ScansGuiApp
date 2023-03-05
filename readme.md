@@ -1,10 +1,16 @@
 <h1>GUI project for UDT data display</h1>
 
 <p>Project of graphical user interface to display and visualize ultrasonic data</p>
-It was developed as the engineer's thesis project.
+It was developed as the engineer's thesis.
 
 <h2>Description</h2>
-The program allows to load, preprocess and visualize data (binary files) from the chosen folder. Loaded data is stored in computer as 3D array and displayed with three 2D scans (which represent each plane of visualized array) and 1D scan (depth/amplitude plot).
+Desktop application to efficiently visualize data obtained via ultrasound testing methods. It enables to load, preprocess and visualize data (binary files) from the chosen folder. Loaded data is stored in computer as 3D array and displayed with three 2D scans (which represent each plane of visualized array) and 1D scan (depth/amplitude plot).
+
+<h2>Software main features</h2>
+<li> pre-processing of input data: Gaussian filtration, normalization, downsampling
+<li> color range and colormap customization
+<li> animation of following layers along one axis
+<li> additional frequency-domain filtration with result preview (inside new window)
 
 <h2>How to run app</h2>
 To run and test the program on your computer:
