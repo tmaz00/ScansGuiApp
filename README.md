@@ -15,14 +15,21 @@ Application was developed to enable fast visualization of ultrasonic data. With 
 <li> additional frequency-domain filtration with result preview (inside new window)
 
 <h2>Software technologies used in project</h2>
-> Python
-> PyQtGraph - Scientific Graphics and GUI Library for Python
-> NumPy - The fundamental package for scientific computing with Python
-> PyQt5 - a comprehensive set of Python bindings for Qt v5
-> SciPy - Fundamental algorithms for scientific computing in Python
+
+> ***Python***
+> 
+> ***PyQtGraph*** - Scientific Graphics and GUI Library for Python
+> 
+> ***NumPy*** - The fundamental package for scientific computing with Python
+> 
+> ***PyQt5*** - a comprehensive set of Python bindings for Qt v5
+> 
+> ***SciPy*** - Fundamental algorithms for scientific computing in Python
 
 <h2>How to run app</h2>
+
 To run and test the program on your computer:
+
 <ol>
   <li> Clone repository to your local machine.
   <li> Open main.exe file inside /src folder
@@ -34,7 +41,7 @@ To run and test the program on your computer:
   <li> Try different options like setting color ranges, playing animation etc.
 </ol>
 
-Note: In order to run application correctly, all files inside /src directory shouldn't be moved from their places after download. Otherwise, app would not run properly.
+*Note*: In order to run application correctly, all files inside /src directory shouldn't be moved from their places after download. Otherwise, app would not run properly.
 
 <a name="screenshots">
   <h2>Some screenshots of application</h2>
